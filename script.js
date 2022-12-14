@@ -1,12 +1,12 @@
-function getComputerChoice(randomItem) {
-    var myArray = [
+function getComputerChoice() {
+    var wordList = [
         "Rock",
         "Paper",
         "Sissors"
-    ];
-    
-    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+        ]
+        let randomList = wordList[Math.floor(Math.random() * wordList.length)]
+        console.log(randomList)
 
-    console.log(getComputerChoice(randomItem));
-}
+};
 
+getComputerChoice();
