@@ -1,3 +1,5 @@
+/* FUNCTION THAT GENERATES RANDOM WORD FROM LIST */
+
 function getComputerChoice() {
     var wordList = [
         "Rock",
@@ -10,3 +12,10 @@ function getComputerChoice() {
 };
 
 getComputerChoice();
+
+/* FUNCTION THAT PLAYS ONE ROUND OF ROCK PAPER SISSORS */
+let playerSelection = prompt("Enter Rock, Paper, or Sissors");
+
+function oneRound() {
+
+}
